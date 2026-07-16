@@ -5,6 +5,7 @@ hamburger.addEventListener("click", () => {
     navbar.classList.toggle("active");
 });
 
+
 // Scroll paytida elementlarni ko'rsatish
 document.addEventListener("DOMContentLoaded", () => {
   const revealEls = document.querySelectorAll(
