@@ -1,10 +1,9 @@
-const hamburger = document.getElementById("hamburger");
-const navbar = document.getElementById("navbar");
+const menuBtn = document.getElementById("menuBtn");
+const nav = document.getElementById("nav");
 
-hamburger.addEventListener("click", () => {
-    navbar.classList.toggle("active");
+menuBtn.addEventListener("click", () => {
+    nav.classList.toggle("active");
 });
-
 
 // Scroll paytida elementlarni ko'rsatish
 document.addEventListener("DOMContentLoaded", () => {
